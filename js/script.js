@@ -140,9 +140,10 @@ class ShoppingCart {
 
     heartIcons.forEach(icon => {
       icon.addEventListener('click', () => {
-        icon.classList.toggle('text-danger'); // Toggle heart icon color
+        icon.classList.toggle('text-danger'); // Toggle heart icon color..
       });
     });
+    
   }
 }
 
