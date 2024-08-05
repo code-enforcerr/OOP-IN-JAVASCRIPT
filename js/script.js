@@ -11,6 +11,7 @@ class Product {
 class ShoppingCartItem {
   constructor(product, quantity = 0) {
     this.product = product;
+    
     this.quantity = quantity;
   }
 
