@@ -5,7 +5,7 @@ class Product {
     this.name = name;
     this.price = price;
   }
-  
+
 }
 
 // ShoppingCartItem class
@@ -30,6 +30,7 @@ class ShoppingCartItem {
   decreaseQuantity() {
     if (this.quantity > 0) {
       this.quantity -= 1;
+      
     }
   }
 }
